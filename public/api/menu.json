@@ -1,0 +1,51 @@
+{
+	"code": "0000",
+	"msg": "处理成功",
+	"ver": "1.0",
+	"data": {
+		"menuList": [
+			{
+				"id":1,
+				"title":"首页",
+				"icon":"pie-chart",
+				"url":"/"
+			},{
+				"id":2,
+				"title":"客户管理",
+				"icon":"desktop",
+				"children":[
+					{
+						"id":5,
+						"title":"二级菜单",
+						"icon":"pie-chart",
+						"url":"/"
+					}
+				]
+			},{
+				"id":3,
+				"title":"订单管理",
+				"icon":"desktop",
+				"children":[
+					{
+						"id":6,
+						"title":"二级菜单",
+						"icon":"pie-chart",
+						"url":"/"
+					}
+				]
+			},{
+				"id":4,
+				"title":"系统设置",
+				"icon":"desktop",
+				"children":[
+					{
+						"id":7,
+						"title":"二级菜单",
+						"icon":"pie-chart",
+						"url":"/"
+					}
+				]
+			}
+		]
+	}
+}

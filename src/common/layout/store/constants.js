@@ -1,0 +1,1 @@
+export const LAYOUT_TOGGLE_COLLAPSED = 'layout/toggle_collapsed';
