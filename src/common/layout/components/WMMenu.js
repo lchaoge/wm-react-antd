@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import * as actionCreators from '../store/actionCreators'
 
 import { Menu, Icon } from 'antd';
 
 class WMMenu extends Component {
+
+  // 页面加载完
+  componentDidMount(){
+    this.props.getMenuList()
+  }
 
   render() {
     const newMenuList = this.props.menuList.toJS()
@@ -40,7 +46,7 @@ class WMMenu extends Component {
                 <Menu.Item key={item.id}>
                   <Link to={item.url}>
                     <Icon type={item.icon} />
-                    <span>{item.title}{item.url}</span>
+                    <span>{item.title}</span>
                   </Link>
                 </Menu.Item>
               )
@@ -59,6 +65,8 @@ const mapStateToProps = (state) => ({
   menuList:state.getIn(['layout','menuList'])
 })
 const mapDispatchToProps = (dispatch) => ({
-
+  getMenuList(){
+    dispatch(actionCreators.getMenuList())
+  }
 })
 export default connect(mapStateToProps, mapDispatchToProps)(WMMenu)

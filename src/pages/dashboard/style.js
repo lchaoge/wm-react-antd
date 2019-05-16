@@ -5,5 +5,11 @@ export const DashboardWrapper = styled.div`
     margin-top: 24px;
     padding: 24px;
     background: #fff;
+    .wmui-form-btngroup{
+      text-align: right;
+      .btn-toggle{
+        margin-left: 10px;
+      }
+    }
   }
 `;

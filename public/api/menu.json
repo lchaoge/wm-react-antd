@@ -18,7 +18,7 @@
 						"id":5,
 						"title":"二级菜单",
 						"icon":"pie-chart",
-						"url":"/"
+						"url":"/detail"
 					}
 				]
 			},{
@@ -30,7 +30,7 @@
 						"id":6,
 						"title":"二级菜单",
 						"icon":"pie-chart",
-						"url":"/"
+						"url":"/detail"
 					}
 				]
 			},{
@@ -42,7 +42,7 @@
 						"id":7,
 						"title":"二级菜单",
 						"icon":"pie-chart",
-						"url":"/"
+						"url":"/detail"
 					}
 				]
 			}

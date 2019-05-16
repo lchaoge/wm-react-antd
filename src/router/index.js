@@ -25,7 +25,6 @@ export const Router = () => (
 export const LayoutRouter = () => (
   <Switch>
     <Route path='/dashboard' exact component={Dashboard}></Route>
-    <Route path='/login' exact component={Login}></Route>
     <Route path='/detail' exact component={Detail}></Route>
     <Redirect to="/dashboard" />
   </Switch>

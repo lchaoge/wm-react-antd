@@ -1,16 +1,16 @@
 ## 项目技术栈
 
 ```
-  "antd": "^3.18.1"                             Ant-Design UI框架  
-  "axois": "^1.0.0"                             HTTP库
-  "react-immutable": "^0.1.3"                   
-  "redux-immutable": "^4.0.0"                   React数据统一库
-  "react-redux": "^7.0.3"                       React绑定库
-  "react-router-dom": "^5.0.0"                  路由
-  "react-transition-group": "^4.0.1"            动画库
-  "redux": "^4.0.1"                             数据管理库
-  "redux-thunk": "^2.3.0"                       Redux中间件
-  "styled-components": "^4.2.0"                 样式库
+"antd": "^3.18.1"                             Ant-Design UI框架  
+"axois": "^1.0.0"                             HTTP库
+"react-immutable": "^0.1.3"                   
+"redux-immutable": "^4.0.0"                   React数据统一库
+"react-redux": "^7.0.3"                       React绑定库
+"react-router-dom": "^5.0.0"                  路由
+"react-transition-group": "^4.0.1"            动画库
+"redux": "^4.0.1"                             数据管理库
+"redux-thunk": "^2.3.0"                       Redux中间件
+"styled-components": "^4.2.0"                 样式库
 ```
 
 

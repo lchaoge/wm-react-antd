@@ -4,5 +4,5 @@ const UrlMapping = {
 }
 
 
-export const POST_GET_MENULIST = (UrlMapping.isLocalHost ? '/wmWorkwebApp/operplat/apis' : this.origin) + '/api/menuList.json'; // 初始化菜单
+export const POST_GET_MENULIST = (UrlMapping.isLocalHost ? '/wmWorkwebApp/operplat/apis' : UrlMapping.origin) + '/api/menu.json'; // 初始化菜单
 
